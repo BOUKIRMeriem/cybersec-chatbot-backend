@@ -6,7 +6,11 @@
     "cra-template": "1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+<<<<<<< HEAD
     "react-scripts": "^5.0.1"
+=======
+    "react-scripts": "5.0.1"
+>>>>>>> 0e92508580462dc9fe6c3eff840b591b7d6d55c8
   },
   "scripts": {
     "start": "react-scripts start",
