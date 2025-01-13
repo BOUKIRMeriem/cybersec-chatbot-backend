@@ -23,8 +23,12 @@ def to_markdown(text):
     return textwrap.indent(text, '> ', predicate=lambda _: True)
 
 # Charger et diviser plusieurs PDF à partir d'un répertoire
+<<<<<<< HEAD
+pdf_directory = "C:/ChatBot-main/data"
+=======
 pdf_directory = "C:/Users/user/Desktop/M3/deepLearning/flask/ChatBot-main/data"
 
+>>>>>>> 0e92508580462dc9fe6c3eff840b591b7d6d55c8
 pdf_files = [f for f in os.listdir(pdf_directory) if f.endswith('.pdf')]
 
 pages = []
