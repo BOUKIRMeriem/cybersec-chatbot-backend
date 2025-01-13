@@ -3,7 +3,7 @@ version: '3.8'
 services:
   backend:
     build:
-      context: ./diffusion_model  # Path to your Flask backend directory
+      context: ./diffusion_model  # This should point to the directory, not the Dockerfile
     container_name: flask-backend
     ports:
       - "5000:5000"
@@ -16,7 +16,7 @@ services:
 
   frontend:
     build:
-      context: ./diffusion_model/front/chatbot  # Path to your React frontend directory
+      context: ./diffusion_model/front/chatbot  # This should point to the frontend directory
     container_name: react-frontend
     ports:
       - "3000:3000"

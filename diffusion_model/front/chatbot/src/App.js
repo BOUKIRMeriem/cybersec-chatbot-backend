@@ -48,7 +48,16 @@ const FileUpload = () => {
 
             <div className="chat-conversation">
 
+                <div className="chat-message user">
+                    <img src="/user.png" alt="User" />
+                    <p>Hello, can you analyze this file?</p>
+                </div>
 
+                {/* Bot reply */}
+                <div className="chat-message bot">
+                    <img src="chatbot.png" alt="Bot" />
+                    <p>Sure! Please upload your file to get started.</p>
+                </div>
 
                 {/* If a file is uploaded, simulate the bot processing */}
                 {file && (
